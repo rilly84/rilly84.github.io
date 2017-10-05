@@ -1,0 +1,27 @@
+.back_yellow{background-color: yellow}
+.back_red{background-color:red}
+.change_font_size{font-size:50px}
+
+/*max-width*/
+@media (min-width:500px) {
+    change_font_size {
+        font-size:8px}
+}
+
+/*{border:1px solid black}*/
+
+
+.has-bottom{margin-bottom:10px}
+.my-thumb{width:100%}
+/*body{background-image: url(http://dreamatico.com/data_images/stars/stars-2.jpg)}*/
+
+.jumbotron { 
+    margin-bottom: 0px;
+    background-image: url('http://static0.srcdn.com/wp-content/uploads/2016/12/Star-Wars-logo-on-space-background.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+    text-align: right;
+    background-color: black;
+    }

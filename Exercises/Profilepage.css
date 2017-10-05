@@ -1,0 +1,51 @@
+.leftbox{
+    background-color: grey;
+    height:650px;
+    width:330px;
+    font-family:"Lato";
+    text-align:center;
+    }
+
+.righttop{
+    background-color: grey;
+    height:200px;
+    width:600px;
+    margin:auto;}
+
+.rightbottom{
+    background-color: grey;
+    height:200px;
+    width:600px;
+    margin:auto;}
+
+.my-container{
+    display: flex;
+    background-color:grey;
+    padding:10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    width: 100%;
+}
+
+/*
+{box-sizing:border-box;
+-webkit-box-sizing:border=box;
+-moz-box-sizing:border-box;}
+
+.parent{
+ display:flex;
+ flex-direction:row;
+ flex-wrap:wrap (This is used when you want the table to collapse under each other when screen is minimized)
+ justify-content:flex-start
+ background-color:
+ padding:5px
+}
+.child{}
+    flex-basis:100px; (This sets the width of the div that will be responsive in reference to the parent)
+    flex-grow:1; (This allows the table to grow and become smaller when the box is minimized)
+
+.child2{}
+    flex-basis:400px;
+    flex-grow:2; (2 indicates that the 2nd div is wider than the 1st div)
+*/
