@@ -13,7 +13,7 @@
 
 .has-bottom{margin-bottom:10px}
 .my-thumb{width:100%}
-/*body{background-image: url(http://dreamatico.com/data_images/stars/stars-2.jpg)}*/
+
 
 .jumbotron { 
     margin-bottom: 0px;
@@ -23,5 +23,6 @@
     color: white;
     text-shadow: black 0.3em 0.3em 0.3em;
     text-align: right;
-    background-color: black;
-    }
+    background-color: black;}
+
+.media{text-align:center;margin:auto}
